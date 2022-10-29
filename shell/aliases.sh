@@ -10,6 +10,7 @@ alias ls='exa -laFh'
 alias exa='exa -laFh'
 # alias exa='exa -laFh --git'
 alias sz='source ~/.zshrc' 
+alias sb='source ~/.bashrc' 
 
 # Aliases to protect against overwriting
 alias cp='cp -i'

@@ -1,8 +1,19 @@
 # Dotfiles [![Build Status](https://github.com/anishathalye/dotfiles/workflows/CI/badge.svg)](https://github.com/anishathalye/dotfiles/actions?query=workflow%3ACI)
 
-After cloning this repo, run `./install` to automatically set up the development
+I forked Anish's dotfiles repository to my github as dotfileslinux so that
+I could personalize it. By making the following mods:
+
+remove everything but bash, shell and zsh.
+
+git submodule init zsh/plugins
+git submodule update zsh/plugins
+git submodule init shell/plugins
+git submodule update shell/plugins
+
+After cloning this repo locally, run `./install` to automatically set up the development
 environment. Note that the install script is idempotent: it can safely be run
 multiple times.
+
 
 For the color scheme to look right, you will also need terminal-specific
 support. The configuration for that, along with a whole bunch of other
